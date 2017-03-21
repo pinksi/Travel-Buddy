@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pinky.tryy" >
+
+   <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="Travel Buddy"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".FirstActivity"
+            android:label="Travel Buddy" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Whattodo"
+            android:label="Book a seat" >
+        </activity>
+        <activity
+            android:name=".Signin"
+            android:label="Travel buddy" >
+        </activity>
+        <activity
+            android:name=".Reservation1"
+            android:label="Choose your bus stop" >
+        </activity>
+        <activity
+            android:name=".Reservation2"
+            android:label="Choose your destination" >
+        </activity>
+        <activity
+            android:name=".Reservation3"
+            android:label="Enter your appropriate time of arrival" >
+        </activity>
+        <activity
+            android:name=".Reservation4"
+            android:label="Enter your appropriate time of arrival" >
+        </activity>
+        <activity
+            android:name=".Reserved"
+            android:label="Confirmed" >
+        </activity>
+        <activity
+            android:name=".Drivereserved"
+            android:label="@string/title_activity_drivereserved" >
+        </activity>
+        <activity
+            android:name=".Book1"
+            android:label="@string/title_activity_book1" >
+        </activity>
+        <activity
+            android:name=".Book2"
+            android:label="@string/title_activity_book2" >
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="Choose your login type" >
+        </activity>
+    </application>
+
+</manifest>

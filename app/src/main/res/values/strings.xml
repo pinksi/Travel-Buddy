@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Tryy</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_whattodo">Whattodo</string>
+    <string name="title_activity_signin">Signin</string>
+    <string name="title_activity_reservation">Reservation</string>
+    <string name="title_activity_reservation2">Reservation2</string>
+    <string name="title_activity_reservation3">Reservation3</string>
+    <string name="title_activity_reservation4">Reservation4</string>
+    <string name="title_activity_reserved">Reserved</string>
+    <string name="title_activity_drivereserved">Drivereserved</string>
+    <string name="title_activity_book1">Book1</string>
+    <string name="title_activity_book2">Book2</string>
+    <string name="title_activity_firstactivity">Firstactivity</string>
+</resources>
